@@ -17,4 +17,15 @@ public class ObjectArray<T> implements Iterable<T> {
     public java.util.Iterator<T> iterator() {
         return new ObjectArrayIterator<T>(data);
     }
+    public String toString() {
+        String result = "{";
+        for(int i = 0;i <= data.length-2;i++) {
+            T a = data[i];
+            result = result + a.toString();
+            result = result + ",";
+        }
+        result = result + data[data.length-2];
+        result = result + "}";
+        return result;
+    }
 }
