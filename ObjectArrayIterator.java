@@ -1,8 +1,8 @@
 package xycabcd.util;
-public class ObjectArrayIterator<T> implements java.util.Iterator<T> {
-    private final T[] data;
-    private int index;
-    private final int last;
+public class ObjectArrayIterator<T> implements java.util.Iterator<T>, Cloneable {
+    protected final T[] data;
+    protected int index;
+    protected final int last;
     
     public ObjectArrayIterator(T[] d) {
         if(d == null) throw new NullPointerException();
