@@ -1,4 +1,6 @@
-package xycabcd.util;
+package io.github.xycabcd.util;
+
+// Change between boxed and unboxed form of an array using a simple loop.
 public final class WrapperArrays {
     private WrapperArrays() {}
     //------------------------------------------- byte
