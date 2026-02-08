@@ -1,4 +1,4 @@
-package xycabcd.util;
+package io.github.xycabcd.util;
 public class ObjectArrayIterator<T> implements java.util.Iterator<T>, Cloneable {
     protected final T[] data;
     protected int index;
