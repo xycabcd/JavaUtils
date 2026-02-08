@@ -1,4 +1,4 @@
-package xycabcd.util;
+package io.github.xycabcd.util;
 //An Wrapper class for arrays
 public class ObjectArray<T> implements Iterable<T>, Cloneable, java.util.RandomAccess {
     protected final T[] data;
